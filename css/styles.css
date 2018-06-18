@@ -440,7 +440,46 @@ ul {
     margin:0 auto;
   }
 
-  .slider-card {
+  .slider-card, .we-offer-content-block {
     grid-column:span 12;
+  }
+
+  .footer-content {
+    justify-items: stretch;
+  }
+
+  .footer-content-item:first-child {
+    grid-column:span 13;
+  }
+
+  .footer-content-item:nth-child(2) {
+    grid-column:span 6;
+  }
+
+  .footer-content-item:nth-child(3) {
+    grid-column:span 7;
+  }
+
+  .we-offer-content-block {
+    margin-bottom:1rem;
+  }
+
+  .txt-content {
+    column-count:1;
+  }
+
+  footer {
+    padding:1rem 0;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .header-title h2 {
+    font-size:3rem;
+  }
+
+  .jumberton-content-title h3 {
+    font-size:2rem;
   }
 }
